@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rahulkumar/Documents/SampleCode/LT-appium-CSharp/android/csharp-appium-android/csharp-appium.csproj": {}
+  },
+  "projects": {
+    "/Users/rahulkumar/Documents/SampleCode/LT-appium-CSharp/android/csharp-appium-android/csharp-appium.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rahulkumar/Documents/SampleCode/LT-appium-CSharp/android/csharp-appium-android/csharp-appium.csproj",
+        "projectName": "csharp-appium",
+        "projectPath": "/Users/rahulkumar/Documents/SampleCode/LT-appium-CSharp/android/csharp-appium-android/csharp-appium.csproj",
+        "packagesPath": "/Users/rahulkumar/.nuget/packages/",
+        "outputPath": "/Users/rahulkumar/Documents/SampleCode/LT-appium-CSharp/android/csharp-appium-android/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rahulkumar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "netcoreapp6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "netcoreapp6.0",
+          "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
